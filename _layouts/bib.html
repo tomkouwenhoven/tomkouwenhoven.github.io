@@ -1,6 +1,13 @@
 ---
 ---
-{{ reference | replace: "Kouwenhoven, T.", "<strong>Kouwenhoven, T.</strong>" }}
-{% if entry.doi %}<br><a href="https://doi.org/{{ entry.doi }}" class="pub-link">DOI</a>
-{% elsif entry.url %}<br><a href="{{ entry.url }}" class="pub-link">Link</a>
+{% assign ref = reference | replace: "Kouwenhoven, T.", "<strong>Kouwenhoven, T.</strong>" %}
+{% if entry.doi %}
+  {% assign doi_url    = "https://doi.org/" | append: entry.doi %}
+  {% assign doi_anchor = '<a href="' | append: doi_url | append: '">' | append: doi_url | append: '</a>' %}
+  {{ ref | replace: doi_url, doi_anchor }}
+{% elsif entry.url %}
+  {% assign url_anchor = '<a href="' | append: entry.url | append: '">' | append: entry.url | append: '</a>' %}
+  {{ ref | replace: entry.url, url_anchor }}
+{% else %}
+  {{ ref }}
 {% endif %}
