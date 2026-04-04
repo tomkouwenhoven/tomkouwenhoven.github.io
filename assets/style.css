@@ -126,6 +126,19 @@ footer a:hover {
   color: #555;
 }
 
+/* Bibliography (jekyll-scholar) */
+ol.bibliography {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+ol.bibliography li {
+  margin-bottom: 1.1rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
 /* Responsive */
 @media (max-width: 480px) {
   body {

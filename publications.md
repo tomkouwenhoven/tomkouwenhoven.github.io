@@ -4,33 +4,28 @@ title: Publications
 permalink: /publications
 ---
 
-## Journal articles
+## 🔎 Under review
 
-<div class="pub">
-  <div class="pub-title">Paper title here</div>
-  <div class="pub-meta">Author One, Author Two, Tom Kouwenhoven · <em>Journal Name</em>, 2024</div>
-  <div class="pub-links"><a href="#">PDF</a> <a href="#">DOI</a></div>
-</div>
-
-<!-- Add more entries by copying the block above -->
+<!-- Add entries manually, e.g.:
+- **Paper title** · Authors · *Venue*, Year
+-->
 
 
-## Conference papers
+## 📜 Conference papers
 
-<div class="pub">
-  <div class="pub-title">Paper title here</div>
-  <div class="pub-meta">Tom Kouwenhoven, Author Two · <em>Conference Name (CONF)</em>, 2024</div>
-  <div class="pub-links"><a href="#">PDF</a> <a href="#">DOI</a></div>
-</div>
+{% bibliography --query @inproceedings %}
 
 
-## Talks
+## 📄 Preprints
+
+{% bibliography --query @misc %}
+
+
+## 🎤 Talks
 
 - **Talk title** · Conference or venue, Year
-- **Talk title** · Conference or venue, Year
 
 
-## Outreach
+## 📰 Outreach
 
-- Item here
 - Item here

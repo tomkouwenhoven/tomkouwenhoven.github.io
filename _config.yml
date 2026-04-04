@@ -14,5 +14,13 @@ nav:
   - title: Publications
     url: /publications
 
-# GitHub Pages settings — do not change
+# Jekyll Scholar — bibliography settings
+scholar:
+  source: .          # bibliography.bib lives in the repo root
+  bibliography: bibliography.bib
+  style: apa
+  sort_by: year
+  order: descending
+
+# Build settings
 markdown: kramdown
