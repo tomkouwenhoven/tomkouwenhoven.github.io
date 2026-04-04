@@ -10,9 +10,9 @@ I obtained my PhD in 2025 at the [Leiden Institute for Advanced Computer Science
 
 ## Research interests
 
-- Language Evolution
-- Artificial Intelligence
-- Reinforcement Learning
 - Theory of Mind
-- Human-Machine Interaction
+- Language Evolution
 - Large Language Models
+- Human-Machine Interaction
+- Artificial Intelligence
+- Machine Psychology

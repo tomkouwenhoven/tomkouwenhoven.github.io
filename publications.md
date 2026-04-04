@@ -4,27 +4,18 @@ title: Publications
 permalink: /publications
 ---
 
-## 🔎 Under review
+## 🔎 Preprints
 
-<!-- Add entries manually, e.g.:
-- **Paper title** · Authors · *Venue*, Year
--->
-
+{% bibliography --query @misc %}
 
 ## 📜 Conference papers
 
 {% bibliography --query @inproceedings %}
 
 
-## 📄 Preprints
-
-{% bibliography --query @misc %}
-
-
 ## 🎤 Talks
 
 - **Talk title** · Conference or venue, Year
-
 
 ## 📰 Outreach
 
