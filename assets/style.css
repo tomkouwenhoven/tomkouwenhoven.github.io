@@ -1,0 +1,134 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #1a1a1a;
+  background: #fff;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+/* Header */
+header {
+  margin-bottom: 3rem;
+}
+
+.site-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.site-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-desc {
+  font-size: 0.875rem;
+  color: #666;
+  margin-top: 0.15rem;
+}
+
+nav {
+  margin-top: 0.85rem;
+}
+
+nav a {
+  font-size: 0.875rem;
+  color: #444;
+  text-decoration: none;
+  margin-right: 1.5rem;
+}
+
+nav a:hover,
+nav a.active {
+  color: #1a1a1a;
+  text-decoration: underline;
+}
+
+/* Main content */
+main p {
+  margin-bottom: 1rem;
+}
+
+main a {
+  color: #1a1a1a;
+  text-decoration: underline;
+  text-decoration-color: #bbb;
+}
+
+main a:hover {
+  text-decoration-color: #1a1a1a;
+}
+
+h2 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #888;
+  margin-top: 2.5rem;
+  margin-bottom: 0.85rem;
+}
+
+ul {
+  padding-left: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.3rem;
+}
+
+/* Publication entries */
+.pub {
+  margin-bottom: 1.25rem;
+}
+
+.pub-title {
+  font-weight: 500;
+}
+
+.pub-meta {
+  font-size: 0.875rem;
+  color: #555;
+}
+
+.pub-links {
+  font-size: 0.8rem;
+  margin-top: 0.15rem;
+}
+
+.pub-links a {
+  margin-right: 0.75rem;
+}
+
+/* Footer */
+footer {
+  margin-top: 4rem;
+  font-size: 0.8rem;
+  color: #999;
+}
+
+footer a {
+  color: #999;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  body {
+    padding: 2rem 1rem 3rem;
+  }
+}
