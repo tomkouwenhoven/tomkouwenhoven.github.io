@@ -24,3 +24,5 @@ scholar:
 
 # Build settings
 markdown: kramdown
+plugins:
+  - jekyll-scholar
