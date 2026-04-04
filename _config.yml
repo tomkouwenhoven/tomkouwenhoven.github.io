@@ -18,6 +18,7 @@ nav:
 scholar:
   source: .          # bibliography.bib lives in the repo root
   bibliography: bibliography.bib
+  bibliography_template: bib
   style: apa
   sort_by: year
   order: descending

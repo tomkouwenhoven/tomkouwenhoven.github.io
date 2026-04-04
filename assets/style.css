@@ -139,6 +139,10 @@ ol.bibliography li {
   line-height: 1.5;
 }
 
+.pub-link {
+  font-size: 0.8rem;
+}
+
 /* Responsive */
 @media (max-width: 480px) {
   body {

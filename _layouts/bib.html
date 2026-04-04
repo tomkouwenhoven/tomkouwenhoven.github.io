@@ -1,0 +1,12 @@
+---
+---
+<%
+  ref = reference.gsub(/Kouwenhoven,\s+T\./, "<strong>Kouwenhoven, T.</strong>")
+  link_url  = entry.field?(:doi) ? "https://doi.org/#{entry.doi.to_s.strip}" \
+                                 : (entry.field?(:url) ? entry.url.to_s.strip : nil)
+  link_text = entry.field?(:doi) ? "DOI" : "Link"
+%>
+<%= ref %>
+<% if link_url %>
+<br><a href="<%= link_url %>" class="pub-link"><%= link_text %></a>
+<% end %>
