@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications
 ---
 
-For a most up-to-date list of my publications, please see my [Google Scholar profile](https://scholar.google.com/citations?user=your-profile-id). Below is a selection of my recent work.
+For a most up-to-date list of my publications, please see my [Scholar profile](https://scholar.google.com/citations?user=your-profile-id).
 
 ## 🔎 Preprints
 

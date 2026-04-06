@@ -2,12 +2,12 @@
 ---
 {% assign ref = reference | replace: "Kouwenhoven, T.", "<strong>Kouwenhoven, T.</strong>" %}
 {% if entry.doi %}
-  {% assign doi_url    = "https://doi.org/" | append: entry.doi %}
-  {% assign doi_anchor = '<a href="' | append: doi_url | append: '">' | append: doi_url | append: '</a>' %}
-  {{ ref | replace: doi_url, doi_anchor }}
+  {% assign doi_url = "https://doi.org/" | append: entry.doi %}
+  {% assign clean_ref = ref | remove: doi_url %}
+  <a href="{{ doi_url }}" target="_blank" class="pub-card-link">{{ clean_ref }}</a>
 {% elsif entry.url %}
-  {% assign url_anchor = '<a href="' | append: entry.url | append: '">' | append: entry.url | append: '</a>' %}
-  {{ ref | replace: entry.url, url_anchor }}
+  {% assign clean_ref = ref | remove: entry.url %}
+  <a href="{{ entry.url }}" target="_blank" class="pub-card-link">{{ clean_ref }}</a>
 {% else %}
   {{ ref }}
 {% endif %}

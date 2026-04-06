@@ -64,15 +64,14 @@ main p {
 }
 
 main a {
-  color: #4a90d9;
+  color: #1a1a1a;
   text-decoration: underline;
-  text-decoration-color: rgba(74, 144, 217, 0.3);
+  text-decoration-color: #bbb;
   transition: text-decoration-color 0.2s ease, color 0.2s ease;
 }
 
 main a:hover {
-  color: #3a70b0;
-  text-decoration-color: #3a70b0;
+  text-decoration-color: #1a1a1a;
 }
 
 h2 {
@@ -142,7 +141,7 @@ ol.bibliography {
 }
 
 ol.bibliography li {
-  margin-bottom: 1.1rem;
+  margin-bottom: 0.6rem;
   font-size: 0.9rem;
   line-height: 1.5;
   background: #f8f9fa;
@@ -153,12 +152,20 @@ ol.bibliography li {
 }
 
 ol.bibliography li:hover {
-  border-color: #ddd;
+  border-color: #ccc;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
 }
 
-.pub-link {
-  font-size: 0.8rem;
+/* Clickable publication card */
+.pub-card-link {
+  display: block;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.pub-card-link:hover {
+  text-decoration: none;
+  color: #1a1a1a;
 }
 
 /* Responsive */
