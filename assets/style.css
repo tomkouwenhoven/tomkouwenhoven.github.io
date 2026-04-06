@@ -171,6 +171,7 @@ ol.bibliography li:hover {
 /* Expandable publication with abstract */
 .pub-details {
   cursor: pointer;
+  position: relative;
 }
 
 .pub-details summary {
@@ -183,14 +184,21 @@ ol.bibliography li:hover {
 }
 
 .pub-details summary::after {
-  content: " ▸";
-  font-size: 0.75rem;
+  content: "▸";
+  position: absolute;
+  bottom: 0.65rem;
+  right: 0.75rem;
+  font-size: 1.1rem;
   color: #aaa;
-  transition: color 0.2s ease;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .pub-details[open] summary::after {
-  content: " ▾";
+  transform: rotate(90deg);
+}
+
+.pub-details:hover summary::after {
+  color: #4a90d9;
 }
 
 .pub-abstract {
