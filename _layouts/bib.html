@@ -2,12 +2,27 @@
 ---
 {% assign ref = reference | replace: "Kouwenhoven, T.", "<strong>Kouwenhoven, T.</strong>" %}
 {% if entry.doi %}
-  {% assign doi_url = "https://doi.org/" | append: entry.doi %}
-  {% assign clean_ref = ref | remove: doi_url %}
-  <a href="{{ doi_url }}" target="_blank" class="pub-card-link">{{ clean_ref }}</a>
+  {% assign paper_url = "https://doi.org/" | append: entry.doi %}
 {% elsif entry.url %}
-  {% assign clean_ref = ref | remove: entry.url %}
-  <a href="{{ entry.url }}" target="_blank" class="pub-card-link">{{ clean_ref }}</a>
+  {% assign paper_url = entry.url %}
+{% endif %}
+
+{% if paper_url %}
+  {% assign clean_ref = ref | remove: paper_url %}
 {% else %}
-  {{ ref }}
+  {% assign clean_ref = ref %}
+{% endif %}
+
+{% if entry.abstract %}
+  <details class="pub-details">
+    <summary>{{ clean_ref }}</summary>
+    <div class="pub-abstract">
+      <p>{{ entry.abstract }}</p>
+      {% if paper_url %}<a href="{{ paper_url }}" target="_blank" class="pub-paper-link">View paper &rarr;</a>{% endif %}
+    </div>
+  </details>
+{% elsif paper_url %}
+  <a href="{{ paper_url }}" target="_blank" class="pub-card-link">{{ clean_ref }}</a>
+{% else %}
+  {{ clean_ref }}
 {% endif %}

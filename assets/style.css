@@ -168,6 +168,59 @@ ol.bibliography li:hover {
   color: #1a1a1a;
 }
 
+/* Expandable publication with abstract */
+.pub-details {
+  cursor: pointer;
+}
+
+.pub-details summary {
+  list-style: none;
+  color: #1a1a1a;
+}
+
+.pub-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.pub-details summary::after {
+  content: " ▸";
+  font-size: 0.75rem;
+  color: #aaa;
+  transition: color 0.2s ease;
+}
+
+.pub-details[open] summary::after {
+  content: " ▾";
+}
+
+.pub-abstract {
+  margin-top: 0.6rem;
+  padding: 0.75rem 0.85rem;
+  background: #fff;
+  border-left: 2px solid #4a90d9;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.85rem;
+  color: #444;
+  line-height: 1.55;
+}
+
+.pub-abstract p {
+  margin-bottom: 0.5rem;
+}
+
+.pub-paper-link {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: #4a90d9;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.pub-paper-link:hover {
+  color: #3a70b0;
+}
+
 /* Responsive */
 @media (max-width: 480px) {
   body {
