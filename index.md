@@ -4,7 +4,7 @@ title: "Bio"
 permalink: /
 ---
 
-# About me
+## About me
 
 I am a postdoctoral researcher at Leiden University interested in [Hybrid Intelligence](https://www.hybrid-intelligence-centre.nl/). My research focuses on the social reasoning abilities — such as Theory of Mind — of computational models like Large Language Models. This work is carried out together with [Max van Duijn](https://www.mjvd.nl/), [Rineke Verbrugge](https://rinekeverbrugge.nl/), and [Daniel Balliet](https://amsterdamcooperationlab.com/danielballiet/).
 
