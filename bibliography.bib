@@ -5,7 +5,8 @@
       eprint={2603.04161},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2603.04161}, 
+      url={https://arxiv.org/abs/2603.04161},
+      abstract={The False Belief Test (FBT) has been the main method for assessing Theory of Mind (ToM) and related socio-cognitive competencies. For Large Language Models (LLMs), the reliability and explanatory potential of this test have remained limited due to issues like data contamination, insufficient model details, and inconsistent controls. We address these issues by testing 17 open-weight models on a balanced set of 192 FBT variants (Trott et al. 2023) using Bayesian Logistic regression to identify how model size and post-training affect socio-cognitive competence. We find that scaling model size benefits performance, but not strictly. A cross-over effect reveals that explicating propositional attitudes (X thinks) fundamentally alters response patterns. Instruction tuning partially mitigates this effect, but further reasoning-oriented finetuning amplifies it. In a case study analysing social reasoning ability throughout OLMo 2 training, we show that this cross-over effect emerges during pre-training, suggesting that models acquire stereotypical response patterns tied to mental-state vocabulary that can outweigh other scenario semantics. Finally, vector steering allows us to isolate a think vector as the causal driver of observed FBT behaviour.} 
 }
 
 @inproceedings{kouwenhoven2025shaping,
@@ -21,6 +22,7 @@
   note      = {Human-Centred AI},
   doi       = {10.24963/ijcai.2025/1144},
   url       = {https://doi.org/10.24963/ijcai.2025/1144},
+  abstract  = {Languages are shaped by the inductive biases of their users. Using a classical referential game, we investigate how artificial languages evolve when optimised for inductive biases in humans and large language models (LLMs) via Human-Human, LLM-LLM and Human-LLM experiments. We show that referentially grounded vocabularies emerge that enable reliable communication in all conditions, even when humans and LLMs collaborate. Comparisons between conditions reveal that languages optimised for LLMs subtly differ from those optimised for humans. Interestingly, interactions between humans and LLMs alleviate these differences and result in vocabularies more human-like than LLM-like. These findings advance our understanding of the role inductive biases in LLMs play in the dynamic nature of human language and contribute to maintaining alignment in human and machine communication. In particular, our work underscores the need to think of new LLM training methods that include human interaction and shows that using communicative success as a reward signal can be a fruitful, novel direction.}
 }
 
 @inproceedings{kouwenhoven2025crossmodal,
@@ -28,7 +30,8 @@
     author={Tom Kouwenhoven and Kiana Shahrasbi and Tessa Verhoef},
     booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
     year={2025},
-    url={https://openreview.net/forum?id=gkcU26BOml}
+    url={https://openreview.net/forum?id=gkcU26BOml},
+    abstract={Recent advances in multimodal models have raised questions about whether vision-and-language models (VLMs) integrate cross-modal information in ways that reflect human cognition. One well-studied test case in this domain is the bouba-kiki effect, where humans reliably associate pseudowords like ‘bouba’ with round shapes and ‘kiki’ with jagged ones. Given the mixed evidence found in prior studies for this effect in VLMs, we present a comprehensive re-evaluation focused on two variants of CLIP, ResNet and Vision Transformer (ViT), given their centrality in many state-of-the-art VLMs. We apply two complementary methods closely modelled after human experiments: a prompt-based evaluation that uses probabilities as a measure of model preference, and we use Grad-CAM as a novel approach to interpret visual attention in shape-word matching tasks. Our findings show that these model variants do not consistently exhibit the bouba-kiki effect. While ResNet shows a preference for round shapes, overall performance across both model variants lacks the expected associations. Moreover, direct comparison with prior human data on the same task shows that the models’ responses fall markedly short of the robust, modality-integrated behaviour characteristic of human cognition. These results contribute to the ongoing debate about the extent to which VLMs truly understand cross-modal concepts, highlighting limitations in their internal representations and alignment with human intuitions.}
 }
 
 @inproceedings{peeperkorn2024temperature,
@@ -38,7 +41,8 @@
   booktitle    = {Proceedings of the 15th International Conference on Computational Creativity},
   year         = {2024},
   organization = {Association for Computational Creativity},
-  pages        = {226--235}
+  pages        = {226--235},
+  abstract     = {Large language models (LLMs) are applied to all sorts of creative tasks, and their outputs vary from beautiful, to peculiar, to pastiche, into plain plagiarism. The temperature parameter of an LLM regulates the amount of randomness, leading to more diverse outputs; therefore, it is often claimed to be the creativity parameter. Here, we investigate this claim using a narrative generation task with a predetermined fixed context, model and prompt. Specifically, we present an empirical analysis of the LLM output for different temperature values using four necessary conditions for creativity in narrative generation: novelty, typicality, cohesion, and coherence. We find that temperature is weakly correlated with novelty, and unsurprisingly, moderately correlated with incoherence, but there is no relationship with either cohesion or typicality. However, the influence of temperature on creativity is far more nuanced and weak than suggested by the "creativity parameter" claim; overall results suggest that the LLM generates slightly more novel outputs as temperatures get higher. Finally, we discuss ideas to allow more controlled LLM creativity, rather than relying on chance via changing the temperature parameter.}
 }
 
 @article{kouwenhoven2022emerging,
@@ -59,25 +63,8 @@
   author={Kouwenhoven, Tom and De Kleijn, Roy and Raaijmakers, Stephan and Verhoef, Tessa},
   booktitle={Proceedings of the Annual Meeting of the Cognitive Science Society},
   volume={44},
-  year={2022}
-}
-
-@inproceedings{kouwenhoven-etal-2025,
-  title     = {Shaping Shared Languages: Human and Large Language Models' Inductive Biases in Emergent Communication},
-  author    = {Kouwenhoven, Tom and 
-               Peeperkorn, Max and 
-               de Kleijn, Roy and 
-               Verhoef, Tessa},
-  booktitle = {Proceedings of the Thirty-Fourth International Joint Conference on
-               Artificial Intelligence, {IJCAI-25}},
-  publisher = {International Joint Conferences on Artificial Intelligence Organization},
-  editor    = {James Kwok},
-  pages     = {10298--10306},
-  year      = {2025},
-  month     = {8},
-  note      = {Human-Centred AI},
-  doi       = {10.24963/ijcai.2025/1144},
-  url       = {https://doi.org/10.24963/ijcai.2025/1144},
+  year={2022},
+  abstract={Language is a unique hallmark of humans, it is both learned and symbolic, which poses the problem of emergence: if neither form nor meaning is known, how can individuals communicate in the first place? The current study replicates work that investigates the emergence of signal forms and meanings and explores how Personal Need for Structure (PNS) of interacting partners can aid or hinder the emergence of communicative systems. We include an existing measure of personal need for structure to investigate its relationship with the emergence of such systems while participants play the embodied communication game (ECG). Similar to the original study, our work shows that a bootstrapping process and sufficient common ground are integral to the recognition of signalhood. Moreover, this process appears to be more successful for individuals who respond differently to a lack of structure as compared to their interaction partner. Contrary to what is usually assumed, our results indicate that not only shared expectations and biases seem to matter in communicative tasks, but that diversity in biases of communication partners can also be beneficial for the emergence of new communication systems.}
 }
 
 @inproceedings{van-duijn-etal-2023-theory,
@@ -117,7 +104,8 @@
     address = "Bologna, Italy",
     publisher = "UP - Universidade do Porto (https://doi.org/10.21747/978-989-9193-73-4/lan2), LIACC - Laborat{\'o}rio de Intelig{\^e}ncia Artificial e Ci{\^e}ncia de Computadores da Universidade do Porto, CLUP - Centro de Lingu{\'i}stica da Universidade do Porto, UEF - The University of Eastern Finland and UAH - Universidad de Alcal{\'a}.",
     url = "https://aclanthology.org/2025.luhme-1.8/",
-    pages = "74--83"
+    pages = "74--83",
+    abstract = "This study investigates the extent to which the Visual Entailment (VE) task serves as a reliable probe of vision-language understanding in multimodal language models, using the LLaMA 3.2 11B Vision model as a test case. Beyond reporting performance metrics, we aim to interpret what these results reveal about the underlying possibilities and limitations of the VE task. We conduct a series of experiments across zero-shot, few-shot, and fine-tuning settings, exploring how factors such as prompt design, the number and order of in-context examples and access to visual information might affect VE performance. To further probe the reasoning processes of the model, we used explanation-based evaluations. Results indicate that three-shot inference outperforms the zero-shot baselines. However, additional examples introduce more noise than they provide benefits. Additionally, the order of the labels in the prompt is a critical factor that influences the predictions. In the absence of visual information, the model has a strong tendency to hallucinate and imagine content, raising questions about the model’s over-reliance on linguistic priors. Fine-tuning yields strong results, achieving an accuracy of 83.3% on the e-SNLI-VE dataset and outperforming the state-of-the-art OFA-X model. Additionally, the explanation evaluation demonstrates that the fine-tuned model provides semantically meaningful explanations similar to those of humans, with a BERTScore F1-score of 89.2%. We do, however, find comparable BERTScore results in experiments with limited vision, questioning the visual grounding of this task. Overall, our results highlight both the utility and limitations of VE as a diagnostic task for vision-language understanding and point to directions for refining multimodal evaluation methods."
 }
 
 
@@ -137,7 +125,8 @@
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2023.emnlp-main.779/",
     doi = "10.18653/v1/2023.emnlp-main.779",
-    pages = "12641--12654"
+    pages = "12641--12654",
+    abstract = "Current Large Language Models (LLMs) are unparalleled in their ability to generate grammatically correct, fluent text. LLMs are appearing rapidly, and debates on LLM capacities have taken off, but reflection is lagging behind. Thus, in this position paper, we first zoom in on the debate and critically assess three points recurring in critiques of LLM capacities: i) that LLMs only parrot statistical patterns in the training data; ii) that LLMs master formal but not functional language competence; and iii) that language learning in LLMs cannot inform human language learning. Drawing on empirical and theoretical arguments, we show that these points need more nuance. Second, we outline a pragmatic perspective on the issue of ‘real’ understanding and intentionality in LLMs. Understanding and intentionality pertain to unobservable mental states we attribute to other humans because they have pragmatic value: they allow us to abstract away from complex underlying mechanics and predict behaviour effectively. We reflect on the circumstances under which it would make sense for humans to similarly attribute mental states to LLMs, thereby outlining a pragmatic philosophical context for LLMs as an increasingly prominent technology in society."
 }
 
 @misc{peeperkorn2025mindgapconformativedecoding,
@@ -148,5 +137,6 @@
       archivePrefix={arXiv},
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2507.20956}, 
+      abstract={Instruction-tuning large language models (LLMs) reduces the diversity of their outputs, which has implications for many tasks, particularly for creative tasks. This paper investigates the ``diversity gap'' for a writing prompt narrative generation task. This gap emerges as measured by current diversity metrics for various open-weight and open-source LLMs. The results show significant decreases in diversity due to instruction-tuning. We explore the diversity loss at each fine-tuning stage for the OLMo and OLMo 2 models to further understand how output diversity is affected. The results indicate that DPO has the most substantial impact on diversity. Motivated by these findings, we present a new decoding strategy, conformative decoding, which guides an instruct model using its more diverse base model to reintroduce output diversity. We show that conformative decoding typically increases diversity and even maintains or improves quality.}
 }
 
