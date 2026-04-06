@@ -6,13 +6,18 @@ email: t.kouwenhoven@liacs.leidenuniv.nl
 google_scholar: https://scholar.google.com/citations?user=vbIiimUAAAAJ&hl=nl
 github: https://github.com/tomkouwenhoven
 orcid: https://orcid.org/0000-0003-2480-4073
+dblp: https://dblp.org/pid/320/1588
 
 # Navigation
 nav:
-  - title: Home
+  - title: 🏡 Home
     url: /
-  - title: Publications
+  - title: 📚 Publications
     url: /publications
+  - title: 📢 Talks & Media
+    url: /talks
+  - title: 🎓 Teaching
+    url: /teaching
 
 # Jekyll Scholar — bibliography settings
 scholar:
