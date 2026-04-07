@@ -236,6 +236,37 @@ ol.bibliography li:hover {
   color: #3a70b0;
 }
 
+/* Tags */
+.tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+
+.tag-invited {
+  color: #4a90d9;
+  background: rgba(74, 144, 217, 0.1);
+  border: 1px solid rgba(74, 144, 217, 0.25);
+}
+
+.tag-lecture {
+  color: #7c5cbf;
+  background: rgba(124, 92, 191, 0.1);
+  border: 1px solid rgba(124, 92, 191, 0.25);
+}
+
+.tag-workshop {
+  color: #d95a8a;
+  background: rgba(217, 90, 138, 0.1);
+  border: 1px solid rgba(217, 90, 138, 0.25);
+}
+
 /* Responsive */
 @media (max-width: 480px) {
   body {
