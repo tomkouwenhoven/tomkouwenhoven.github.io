@@ -267,9 +267,48 @@ ol.bibliography li:hover {
   border: 1px solid rgba(217, 90, 138, 0.25);
 }
 
+/* Dissertation section */
+.dissertation-section ~ p,
+.dissertation-section ~ p + p,
+.dissertation-section ~ p + p + p,
+.dissertation-section ~ p + p + p + p {
+  float: left;
+  width: 58%;
+}
+
+.dissertation-cover {
+  float: right;
+  width: 38%;
+  margin-left: 4%;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dissertation-section ~ p + p + p + p + p {
+  float: none;
+  width: 100%;
+  clear: both;
+}
+
+/* Clearfix after dissertation */
+.dissertation-section ~ h2 {
+  clear: both;
+}
+
 /* Responsive */
 @media (max-width: 480px) {
   body {
     padding: 2rem 1rem 3rem;
+  }
+
+  .dissertation-section ~ p {
+    float: none;
+    width: 100%;
+  }
+
+  .dissertation-cover {
+    float: none;
+    width: 60%;
+    margin: 1rem auto;
   }
 }
