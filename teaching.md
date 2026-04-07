@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching
 ---
 
-# Teaching & Supervision
+## Teaching & Supervision
 
 ## 📚 Courses
 

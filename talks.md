@@ -4,7 +4,7 @@ title: Talks & Media
 permalink: /talks
 ---
 
-# Talks, Lectures & Media
+## Talks, Lectures & Media
 
 ## 🎤 Invited talks, Lectures & Workshops
  
