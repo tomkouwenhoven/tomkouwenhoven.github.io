@@ -4,6 +4,8 @@ title: Talks & Media
 permalink: /talks
 ---
 
+# Talks, Lectures & Media
+
 ## 🎤 Invited talks, Lectures & Workshops
  
 - <span class="tag tag-invited">invited talk</span> **AI, Art and Embodiment symposium** · May '25

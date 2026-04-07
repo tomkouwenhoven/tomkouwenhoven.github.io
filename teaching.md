@@ -4,6 +4,8 @@ title: Teaching
 permalink: /teaching
 ---
 
+# Teaching & Supervision
+
 ## 📚 Courses
 
 Short teaching bio here — e.g., your teaching philosophy, areas, or roles.
