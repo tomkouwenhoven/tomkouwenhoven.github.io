@@ -268,31 +268,25 @@ ol.bibliography li:hover {
 }
 
 /* Dissertation section */
-.dissertation-section ~ p,
-.dissertation-section ~ p + p,
-.dissertation-section ~ p + p + p,
-.dissertation-section ~ p + p + p + p {
-  float: left;
-  width: 58%;
+.dissertation {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.dissertation-text {
+  flex: 1;
 }
 
 .dissertation-cover {
-  float: right;
-  width: 38%;
-  margin-left: 4%;
+  flex-shrink: 0;
+  width: 35%;
+}
+
+.dissertation-cover img {
+  width: 100%;
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.dissertation-section ~ p + p + p + p + p {
-  float: none;
-  width: 100%;
-  clear: both;
-}
-
-/* Clearfix after dissertation */
-.dissertation-section ~ h2 {
-  clear: both;
 }
 
 /* Responsive */
@@ -301,14 +295,12 @@ ol.bibliography li:hover {
     padding: 2rem 1rem 3rem;
   }
 
-  .dissertation-section ~ p {
-    float: none;
-    width: 100%;
+  .dissertation {
+    flex-direction: column-reverse;
   }
 
   .dissertation-cover {
-    float: none;
     width: 60%;
-    margin: 1rem auto;
+    margin: 0 auto;
   }
 }
