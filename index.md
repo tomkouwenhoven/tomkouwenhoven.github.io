@@ -6,11 +6,16 @@ permalink: /
 
 ## Bio
 
-I am a postdoctoral researcher at Leiden University interested in [Hybrid Intelligence](https://www.hybrid-intelligence-centre.nl/). My research focuses on the social reasoning abilities — such as Theory of Mind — of computational models like Large Language Models. This work is carried out together with [Max van Duijn](https://www.mjvd.nl/), [Rineke Verbrugge](https://rinekeverbrugge.nl/), and [Daniel Balliet](https://amsterdamcooperationlab.com/danielballiet/).
+I am a postdoctoral researcher at Leiden University interested in [Hybrid Intelligence](https://www.hybrid-intelligence-centre.nl/). My research is interdisciplinary in nature and focuses on the social reasoning abilities — such as Theory of Mind — of computational models like Large Language Models, and how these are acquired, using mechanistic interpretability techniques. This work is carried out together with [Max van Duijn](https://www.mjvd.nl/), [Rineke Verbrugge](https://rinekeverbrugge.nl/), and [Daniel Balliet](https://amsterdamcooperationlab.com/danielballiet/).
 
-I obtained my PhD in 2025 at the [Leiden Institute for Advanced Computer Science (LIACS)](https://liacs.leidenuniv.nl/) and [Creative Intelligence Lab](https://cil.liacs.nl/). My PhD project, *Collaborative Meaning-Making: The Emergence of Novel Languages in Humans, Machines, and Human-Machine Interactions*, was supervised by [Tessa Verhoef](https://www.universiteitleiden.nl/en/staffmembers/tessa-verhoef), [Roy de Kleijn](https://roydekleijn.nl/), and [Stephan Raaijmakers](https://www.universiteitleiden.nl/medewerkers/stephan-raaijmakers). It aimed to improve communication between humans and AI by co-creating shared vocabularies, drawing on Language Evolution and using adaptive machine-learning algorithms and Large Language Models.
+My work is always strongly rooted in human cognition and aims to leverage insights from humans to improve LLM understanding. At this intersection of human cognition and AI, I publish at venues including NeurIPS, IJCAI, EMNLP, CogSci, and CoNLL. My co-authored paper 'Is Temperature the Creativity Parameter of Large Language Models' features on [IBM Think](https://www.ibm.com/think/topics/llm-temperature) and won the Best Student Paper Award at ICCC'24.
+
+I received my MSc with distinction (cum laude) from the Media Technology program at Leiden University, and my BSc in Lifestyle Informatics (AI) at the Vrije Universiteit.
+
 
 ## Dissertation
+
+I obtained my PhD in 2025 at the [Leiden Institute for Advanced Computer Science (LIACS)](https://liacs.leidenuniv.nl/) and [Creative Intelligence Lab](https://cil.liacs.nl/). My PhD project, *Collaborative Meaning-Making: The Emergence of Novel Languages in Humans, Machines, and Human-Machine Interactions*, was supervised by [Tessa Verhoef](https://www.universiteitleiden.nl/en/staffmembers/tessa-verhoef), [Roy de Kleijn](https://roydekleijn.nl/), and [Stephan Raaijmakers](https://www.universiteitleiden.nl/medewerkers/stephan-raaijmakers). It aimed to improve communication between humans and AI by co-creating shared vocabularies, drawing on Language Evolution and using adaptive machine-learning algorithms and Large Language Models.
 
 <div class="dissertation" markdown="1">
 <div class="dissertation-text" markdown="1">
