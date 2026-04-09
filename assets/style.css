@@ -267,6 +267,18 @@ ol.bibliography li:hover {
   border: 1px solid rgba(217, 90, 138, 0.25);
 }
 
+.tag-undergrad {
+  color: #2a9d8f;
+  background: rgba(42, 157, 143, 0.1);
+  border: 1px solid rgba(42, 157, 143, 0.25);
+}
+
+.tag-grad {
+  color: #e76f51;
+  background: rgba(231, 111, 81, 0.1);
+  border: 1px solid rgba(231, 111, 81, 0.25);
+}
+
 /* Dissertation section */
 .dissertation {
   display: flex;
