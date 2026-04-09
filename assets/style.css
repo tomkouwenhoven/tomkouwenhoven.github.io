@@ -289,6 +289,39 @@ ol.bibliography li:hover {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Thesis cards */
+.thesis-list + ul {
+  list-style: none;
+  padding: 0;
+}
+
+.thesis-list + ul > li {
+  background: #f8f9fa;
+  border-radius: 6px;
+  padding: 0.85rem 1rem;
+  border: 1px solid #eee;
+  margin-bottom: 0.6rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.thesis-list + ul > li:hover {
+  border-color: #ccc;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.thesis-list + ul > li a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.thesis-meta {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 0.2rem;
+}
+
 /* Responsive */
 @media (max-width: 480px) {
   body {
