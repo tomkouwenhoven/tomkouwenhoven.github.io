@@ -25,3 +25,7 @@ For a most up-to-date list of my publications, please see my [Scholar profile](h
 - Workshop on Representational Alignment (Re-Align, '25, '26)
 - Conference on Language Evolution (EvoLang, '24)
 - Conference of Cognitive Science (CogSci, '26)
+
+## 🗂️ Conference Organisation
+
+- Annual Conference of the European Human Behaviour and Evolution Association ([EHBEA'26](https://www.ehbea2026.com/)) in Leiden, Netherlands. Theme: \[AI\]volution
