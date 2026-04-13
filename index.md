@@ -15,7 +15,7 @@ I received my MSc with distinction (cum laude) from the Media Technology program
 
 ## Dissertation
 
-I obtained my PhD in 2025 at the [Leiden Institute for Advanced Computer Science (LIACS)](https://liacs.leidenuniv.nl/) and [Creative Intelligence Lab](https://cil.liacs.nl/). My PhD project, *Collaborative Meaning-Making: The Emergence of Novel Languages in Humans, Machines, and Human-Machine Interactions*, was supervised by [Tessa Verhoef](https://www.universiteitleiden.nl/en/staffmembers/tessa-verhoef), [Roy de Kleijn](https://roydekleijn.nl/), and [Stephan Raaijmakers](https://www.universiteitleiden.nl/medewerkers/stephan-raaijmakers). It aimed to improve communication between humans and AI by co-creating shared vocabularies, drawing on Language Evolution and using adaptive machine-learning algorithms and Large Language Models.
+I obtained my PhD in 2025 at the [Leiden Institute for Advanced Computer Science (LIACS)](https://liacs.leidenuniv.nl/) as part of the [Creative Intelligence Lab](https://cil.liacs.nl/). My PhD project, *Collaborative Meaning-Making: The Emergence of Novel Languages in Humans, Machines, and Human-Machine Interactions*, was supervised by [Tessa Verhoef](https://www.universiteitleiden.nl/en/staffmembers/tessa-verhoef), [Roy de Kleijn](https://roydekleijn.nl/), and [Stephan Raaijmakers](https://www.universiteitleiden.nl/medewerkers/stephan-raaijmakers). It aimed to improve communication between humans and AI by co-creating shared vocabularies, drawing on Language Evolution and using adaptive machine-learning algorithms and Large Language Models.
 
 <div class="dissertation" markdown="1">
 <div class="dissertation-text" markdown="1">
@@ -37,6 +37,7 @@ Defence: 30 October 2025, Leiden.
 </div>
 
 ## Research interests
+My research interests include, but are not limited to the following topics:
 
 - Theory of Mind
 - Language Evolution
@@ -44,3 +45,5 @@ Defence: 30 October 2025, Leiden.
 - Human-Machine Interaction
 - Artificial Intelligence
 - Machine Psychology
+
+Please reach out if you are interested in any of these topics, or if you have an interesting project idea that is suitable for a collaboration, thesis supervision, or internship. I am always open to new collaborations and projects, and I would love to hear from you!
