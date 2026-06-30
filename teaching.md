@@ -16,7 +16,7 @@ permalink: /teaching
 - <span class="tag tag-grad">graduate</span> **Non-Human Cognition** · Leiden University, 2022-2024 · Assistant
 - <span class="tag tag-grad">graduate</span> **Statement to Experience** · Leiden University, 2021 · Group supervisor
 - <span class="tag tag-grad">graduate</span> **Social Technologies** · Leiden University, 2021, 2023 · Agent-based modelling workshop organizer & Assistant
-- <span class="tag tag-grad">undergraduate</span> **Pervasive Computing** · Vrije Universiteit Amsterdam, 2015 · Teaching Assistant
+- <span class="tag tag-undergrad">undergraduate</span> **Pervasive Computing** · Vrije Universiteit Amsterdam, 2015 · Teaching Assistant
 
 
 ## 🎓 Supervised theses
