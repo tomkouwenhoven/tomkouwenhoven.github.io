@@ -7,13 +7,11 @@ permalink: /teaching
 ## Teaching & Supervision
 
 ## 📚 Courses
-
-- <span class="tag tag-undergrad">undergraduate</span> **Orientation in Artificial Intelligence** · Leiden University, 2025-2026 · Co-teacher: Max van Duijn
-- <span class="tag tag-grad">graduate</span> **Non-Human Cognition** · Leiden University, 2024-2025 · Co-teacher: Tessa Verhoef
+- <span class="tag tag-undergrad">undergraduate</span> **Orientation in Artificial Intelligence** · Leiden University, 2025-2027 · Co-teacher: Max van Duijn
 
 ## 🌈 Course Assistance 
 - <span class="tag tag-grad">graduate</span> **Human Computer interaction** · Leiden University, 2021-2024 · Assistant 
-- <span class="tag tag-grad">graduate</span> **Non-Human Cognition** · Leiden University, 2022-2024 · Assistant
+- <span class="tag tag-grad">graduate</span> **Non-Human Cognition** · Leiden University, 2022-2025 · Assistant
 - <span class="tag tag-grad">graduate</span> **Statement to Experience** · Leiden University, 2021 · Group supervisor
 - <span class="tag tag-grad">graduate</span> **Social Technologies** · Leiden University, 2021, 2023 · Agent-based modelling workshop organizer & Assistant
 - <span class="tag tag-undergrad">undergraduate</span> **Pervasive Computing** · Vrije Universiteit Amsterdam, 2015 · Teaching Assistant
@@ -21,7 +19,6 @@ permalink: /teaching
 
 ## 🎓 Supervised theses
 {: .thesis-list}
-
 - [<span class="tag tag-grad">graduate</span> **Exploring the Bouba-Kiki Effect: Cross-Modal Associations in Vision-and-Language Models**](https://theses.liacs.nl/3310){:target="_blank"} · Kiana Shahrasbi · Co-supervisor: Tessa Verhoef
   {: .thesis-meta}
 
@@ -40,7 +37,7 @@ permalink: /teaching
 - <span class="tag tag-grad">graduate</span> **Analysis of Reddit Posts regarding Retrograde Cricopharyngeal Dysfunction (R-CPD) using Computational Methods** · Annelies Vaandrager · Co-supervisor: Max van Duijn
   {: .thesis-meta}
   
-- <span class="tag tag-undergrad">undergraduate</span> **Structural systematicity under varying meaning spaces** · Sayfeddine el Kaddouri · Co-supervisor: Tessa Verhoef
+- [<span class="tag tag-undergrad">undergraduate</span> **Structural systematicity under varying meaning spaces**](https://theses.liacs.nl/2704){:target="_blank"} · Sayfeddine el Kaddouri · Co-supervisor: Tessa Verhoef
   {: .thesis-meta}
 
 - <span class="tag tag-undergrad">undergraduate</span> **Learning Signal-Meaning Mappings in an Emergent Communication System using Neural Networks** · Thomas Blom · Co-supervisor: Tessa Verhoef
