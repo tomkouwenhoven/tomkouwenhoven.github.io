@@ -19,6 +19,7 @@
     <div class="pub-abstract">
       <p>{{ entry.abstract }}</p>
       {% if paper_url %}<a href="{{ paper_url }}" target="_blank" class="pub-paper-link">View paper &rarr;</a>{% endif %}
+      {% if entry.poster %}<a href="{{ entry.poster | relative_url }}" target="_blank" class="pub-paper-link">View poster &rarr;</a>{% endif %}
     </div>
   </details>
 {% elsif paper_url %}

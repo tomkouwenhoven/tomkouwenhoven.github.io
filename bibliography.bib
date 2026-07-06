@@ -1,23 +1,36 @@
-@misc{froma2026seekinginformationragassistantsdoes,
-      title={Seeking Information with RAG-Assistants: Does Model Size Matter in Human-AI Collaborations?}, 
+@inproceedings{froma2026seekinginformationragassistantsdoes,
+      title={Seeking Information with RAG-Assistants: Does Model Size Matter in Human-AI Collaborations?},
       author={Lennard C. Froma and Tom Kouwenhoven and Maaike H. T. de Boer and Catholijn M. Jonker and Max J. van Duijn},
+      booktitle={HHAI 2026 -- Proceedings of the 5th International Conference on Hybrid Human-Artificial Intelligence},
+      series={Frontiers in Artificial Intelligence and Applications},
+      volume={423},
+      pages={441--458},
       year={2026},
-      eprint={2605.00964},
-      archivePrefix={arXiv},
-      primaryClass={cs.IR},
-      url={https://arxiv.org/abs/2605.00964},
-      abstract={Much research on LLMs has focused on increasing benchmark performance. However, the evaluation of such models in real-world collaborative human-AI workflows has stayed behind. This work evaluates a chatbot-style assistant based on Retrieval-Augmented Generation (RAG) in a realistic multi-turn information-seeking scenario inspired by workplace settings where compliance with local legislation and secure handling of sensitive data are often key. Specifically, we examine the performance of humans (N=112) assisted by RAG-assistants compared to LLM-only or LLM+RAG baselines. In this setting, we investigate how underlying model size (3B, 8B, and 70B) shapes the human-AI collaborative dynamic and how it influences perceived usability and satisfaction. Results show that the performance gain of human-AI collaboration over the model-only baselines is significant, irrespective of model size, suggesting that hybrid systems are beneficial in information-seeking scenarios. Interestingly, however, perceived usability and satisfaction among participants showed little difference across model sizes. This demonstrates a nuanced trade-off between model size, performance, and user perception. Our work highlights the added value of evaluating AI applications in actual multi-turn interactions with human users, looking at usability and satisfaction besides accuracy, rather than focusing on benchmark performance only.} 
+      publisher={IOS Press},
+      address={Amsterdam},
+      doi={10.3233/FAIA260531},
+      url={https://ebooks.iospress.nl/volumearticle/79798},
+      abstract={Much research on LLMs has focused on increasing benchmark performance. However, the evaluation of such models in real-world collaborative human–AI workflows has stayed behind. This work evaluates a chatbot-style assistant based on Retrieval-Augmented Generation (RAG) in a realistic multi-turn information-seeking scenario inspired by workplace settings where compliance with local legislation and secure handling of sensitive data are often key. Specifically, we examine the performance of humans (N=112) assisted by RAG-assistants compared to LLM-only or LLM+RAG baselines. In this setting, we investigate how underlying model size (3B, 8B, and 70B) shapes the human-AI collaborative dynamic and how it influences perceived usability and satisfaction. Results show that the performance gain of human-AI collaboration over the model-only baselines is significant, irrespective of model size, suggesting that hybrid systems are beneficial in information-seeking scenarios. Interestingly, however, perceived usability and satisfaction among participants showed little difference across model sizes. This demonstrates a nuanced trade-off between model size, performance, and user perception. Our work highlights the added value of evaluating AI applications in actual multi-turn interactions with human users, looking at usability and satisfaction besides accuracy, rather than focusing on benchmark performance only.} 
 }
 
-@misc{kouwenhoven2026tracessocialcompetencelarge,
-  title={Traces of Social Competence in Large Language Models}, 
-  author={Tom Kouwenhoven and Michiel van der Meer and Max van Duijn},
-  year={2026},
-  eprint={2603.04161},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL},
-  url={https://arxiv.org/abs/2603.04161},
-  abstract={The False Belief Test (FBT) has been the main method for assessing Theory of Mind (ToM) and related socio-cognitive competencies. For Large Language Models (LLMs), the reliability and explanatory potential of this test have remained limited due to issues like data contamination, insufficient model details, and inconsistent controls. We address these issues by testing 17 open-weight models on a balanced set of 192 FBT variants (Trott et al. 2023) using Bayesian Logistic regression to identify how model size and post-training affect socio-cognitive competence. We find that scaling model size benefits performance, but not strictly. A cross-over effect reveals that explicating propositional attitudes (X thinks) fundamentally alters response patterns. Instruction tuning partially mitigates this effect, but further reasoning-oriented finetuning amplifies it. In a case study analysing social reasoning ability throughout OLMo 2 training, we show that this cross-over effect emerges during pre-training, suggesting that models acquire stereotypical response patterns tied to mental-state vocabulary that can outweigh other scenario semantics. Finally, vector steering allows us to isolate a think vector as the causal driver of observed FBT behaviour.} 
+@inproceedings{kouwenhoven-etal-2026-traces,
+    title = "Traces of Social Competence in Large Language Models",
+    author = "Kouwenhoven, Tom  and
+      van der Meer, Michiel T.  and
+      van Duijn, Max J.",
+    editor = "Bonial, Claire  and
+      Berzak, Yevgeni",
+    booktitle = "Proceedings of the 30th Conference on Computational Natural Language Learning",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.conll-main.45/",
+    doi = "10.18653/v1/2026.conll-main.45",
+    pages = "742--759",
+    ISBN = "979-8-89176-410-1",
+    poster = "/media/CoNLL_v1.pdf",
+    abstract = "The False Belief Test (FBT) has been the main method for assessing Theory of Mind (ToM) and related socio-cognitive competencies. ForLarge Language Models (LLMs), the reliability and explanatory potential of this test have remained limited due to issues like data contamination, insufficient model details, and inconsistent controls. We address these issues by testing 17 open-weight models on a balanced set of 192 FBT variants (Trott et al., 2023) using Bayesian Logistic regression to identify how model size and post-training affect socio-cognitive competence. We find that scaling model size benefits performance, but not strictly. A cross-over effect reveals that explicating propositional attitudes (X *thinks*) fundamentally alters response patterns. Instruction tuning partially mitigates this effect, but further reasoning-oriented fine-tuning amplifies it. In a case study analysing social reasoning ability throughout OLMo 2 training, we show that this cross-over effect emerges during pre-training, suggesting that models acquire stereotypical response patterns tied to mental-state vocabulary that can outweigh other scenario semantics. Finally, vector steering allows us to isolate a *think* vector as the causal driver of observed FBT behaviour."
 }
 
 @inproceedings{kouwenhoven2025shaping,
@@ -33,6 +46,7 @@
   note      = {Human-Centred AI},
   doi       = {10.24963/ijcai.2025/1144},
   url       = {https://doi.org/10.24963/ijcai.2025/1144},
+  poster    = {/media/IJCAI_poster_Kouwenhoven_V2.pdf},
   abstract  = {Languages are shaped by the inductive biases of their users. Using a classical referential game, we investigate how artificial languages evolve when optimised for inductive biases in humans and large language models (LLMs) via Human-Human, LLM-LLM and Human-LLM experiments. We show that referentially grounded vocabularies emerge that enable reliable communication in all conditions, even when humans and LLMs collaborate. Comparisons between conditions reveal that languages optimised for LLMs subtly differ from those optimised for humans. Interestingly, interactions between humans and LLMs alleviate these differences and result in vocabularies more human-like than LLM-like. These findings advance our understanding of the role inductive biases in LLMs play in the dynamic nature of human language and contribute to maintaining alignment in human and machine communication. In particular, our work underscores the need to think of new LLM training methods that include human interaction and shows that using communicative success as a reward signal can be a fruitful, novel direction.}
 }
 
@@ -64,6 +78,7 @@
   booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
   year={2025},
   url={https://openreview.net/forum?id=gkcU26BOml},
+  poster={/media/neurips_poster_v4.pdf},
   abstract={Recent advances in multimodal models have raised questions about whether vision-and-language models (VLMs) integrate cross-modal information in ways that reflect human cognition. One well-studied test case in this domain is the bouba-kiki effect, where humans reliably associate pseudowords like ‘bouba’ with round shapes and ‘kiki’ with jagged ones. Given the mixed evidence found in prior studies for this effect in VLMs, we present a comprehensive re-evaluation focused on two variants of CLIP, ResNet and Vision Transformer (ViT), given their centrality in many state-of-the-art VLMs. We apply two complementary methods closely modelled after human experiments: a prompt-based evaluation that uses probabilities as a measure of model preference, and we use Grad-CAM as a novel approach to interpret visual attention in shape-word matching tasks. Our findings show that these model variants do not consistently exhibit the bouba-kiki effect. While ResNet shows a preference for round shapes, overall performance across both model variants lacks the expected associations. Moreover, direct comparison with prior human data on the same task shows that the models’ responses fall markedly short of the robust, modality-integrated behaviour characteristic of human cognition. These results contribute to the ongoing debate about the extent to which VLMs truly understand cross-modal concepts, highlighting limitations in their internal representations and alignment with human intuitions.}
 }
 
