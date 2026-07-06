@@ -36,6 +36,7 @@ permalink: /talks
   Workshop for the MSc course Social Technologies.
 
 ## 📰 News & Media
+- **Can AI ever truly understand us?** · [Spotify podcast](https://open.spotify.com/episode/3yaaqvsK9GH2YfW50arwgG?si=26d88e979d554dbb){:target="_blank"}, June '26
 
 - **Meta gaat social media data gebruiken om hun taalmodellen te trainen** · [NOS Journaal](https://npo.nl/start/serie/nos-journaal-20-00-uur/seizoen-64/nos-journaal_99262/afspelen){:target="_blank"}, May '25
 
