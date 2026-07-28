@@ -8,6 +8,9 @@ permalink: /talks
 
 ## 🎤 Invited talks, Lectures & Workshops
 
+- <span class="tag tag-invited">guest lecture</span> **AI at law faculty** · September '26
+  The Turing test and beyond: How to think of intelligence in humans, AI and hybrid human-AI teams. 
+
 - <span class="tag tag-invited">invited talk</span> **SAILS Lunchtime Seminar** · September '26
   Collaborative Meaning-Making: The Emergence of Novel Languages in Humans, Machines, and Human-Machine Interactions. 
 

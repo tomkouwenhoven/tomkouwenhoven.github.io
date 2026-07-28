@@ -19,6 +19,7 @@ For a most up-to-date list of my publications, please see my [Scholar profile](h
 
 ## 📋 Reviewing
 
+- Conference Artificial Intelligence (AAAI, '27)
 - Conference on Computational Natural Language Learning (CoNLL, '25, '26)
 - ACL Rolling Review (ARR, May '25)
 - Workshop on Cognitive Modelling and Computational Linguistics (CMCL, '25)
