@@ -6,10 +6,10 @@ permalink: /talks
 
 ## Talks, Lectures & Media
 
-## 🎤 Invited talks, Lectures & Workshops
+## 🎤 Invited talks, 👨🏼‍🏫 Lectures & 🏋🏼‍♀️ Workshops
 
-- <span class="tag tag-lecture">guest lecture</span> **AI at law faculty** · September '26
-  The Turing test and beyond: How to think of intelligence in humans, AI and hybrid human-AI teams. 
+- <span class="tag tag-lecture">guest lecture</span> **Philosophy, Politics, Ethics of AI** · September '26
+  The Turing Test Today – language, definitions of intelligence and human machine interaction  
 
 - <span class="tag tag-invited">invited talk</span> **SAILS Lunchtime Seminar** · September '26
   Collaborative Meaning-Making: The Emergence of Novel Languages in Humans, Machines, and Human-Machine Interactions. 
@@ -38,7 +38,7 @@ permalink: /talks
 - <span class="tag tag-workshop">workshop</span> **Agent-based Modelling** · October–November '21, '23
   Workshop for the MSc course Social Technologies.
 
-## 📰 News & Media
+## 📰 News & 🎧 Media
 - **Can AI ever truly understand us?** · [Spotify podcast](https://open.spotify.com/episode/3yaaqvsK9GH2YfW50arwgG?si=26d88e979d554dbb){:target="_blank"}, June '26
 
 - **Meta gaat social media data gebruiken om hun taalmodellen te trainen** · [NOS Journaal](https://npo.nl/start/serie/nos-journaal-20-00-uur/seizoen-64/nos-journaal_99262/afspelen){:target="_blank"}, May '25
